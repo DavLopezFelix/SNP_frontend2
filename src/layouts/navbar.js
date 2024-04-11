@@ -13,7 +13,6 @@ const NavBarExample = () => {
                     <Navbar.Brand as={Link} to="/">
                         <img src={logo} alt="Logo de SNP" className="nav-item-img" style={{ width: "95px", height: "85px"}}/>
                     </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
                         {/* <Nav.Link as={Link} to="/regionnortecentro" className="nav-item-custom">Inicio</Nav.Link> */}

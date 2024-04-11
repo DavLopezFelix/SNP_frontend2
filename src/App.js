@@ -11,8 +11,6 @@ import Sesionsnp from './componentsclient/sesionsnp';
 
 // Importamos componentes para las vistas de la SNP
 import NavbarHomeSesionsnp from './layouts/navbarhomesesionsnp';
-import NavbarSesionsnp from './layouts/navbarsesionsnp';
-import HomeSesionsnp from './componentssnp/homesesionsnp';
 import RegionNorteCentroSNP from './componentssnp/regionnortecentrosnp';
 import RegionSurSNP from './componentssnp/regionsursnp';
 import LongitudPeso from './nortecentrosesionsnp/longitudpeso';
