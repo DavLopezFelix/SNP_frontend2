@@ -40,8 +40,6 @@ function App() {
             <Route path='regionsur/rankingporpuntuacionsur' element={<RankingPorPuntuacion />} />           
           </Route>
       
-      
-
           <Route path='/avanzados/*' element={<NavbarHomeSesionsnp />}>
             <Route index element={<Sesionsnp />} />
             <Route path='regionnortecentrosnp' element={<RegionNorteCentroSNP />} />
@@ -56,7 +54,7 @@ function App() {
           </Route>
 
           {/* Ruta por defecto */}
-          <Route path='*' element={<Navigate replace to="/" />} />
+          <Route path='*' element={<Navigate to="/regionnortecentro" />} />
         </Routes>
       </BrowserRouter>
       <Footer />
