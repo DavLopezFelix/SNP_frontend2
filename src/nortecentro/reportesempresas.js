@@ -26,7 +26,7 @@ function ReportesEmpresas() {
   }, []);
 
   if (!rankingData) {
-    return <div>Loading...</div>;
+    return <div>No hay datos para mostrar</div>;
   }
 
   return (
